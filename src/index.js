@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import classes from './index.module.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <h1 className={classes.title}>Manage your Tasks <span>Efficiently</span></h1>
+    <h2>Hi, Welcome to the amazing one stop to manage your tasks.</h2>
+    <h3>Lets get them all <span>Done!</span></h3>
     <App />
   </React.StrictMode>
 );
