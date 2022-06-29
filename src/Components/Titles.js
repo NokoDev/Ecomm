@@ -10,10 +10,10 @@ const Titles = () =>{
     return (
         <div className={classes.main}>
             <div>Name</div>
-            <div>Description</div>
+            <div className={classes.description}>Description</div>
             <div>Priority</div>
             <div>Hours/Minutes Added</div>
-            <div></div>
+            <div>Status</div>
         </div>
     )
 }
