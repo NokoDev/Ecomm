@@ -4,6 +4,7 @@
   border-radius: 4px;
   margin-inline: auto;
   max-width: 70%;
+  min-width: 450px;
   height: 510px;
   border: 2px solid red;
 }

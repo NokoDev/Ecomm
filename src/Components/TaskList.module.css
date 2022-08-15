@@ -1,6 +1,7 @@
 .main{
+    box-sizing: border-box;
     width: 100%;
-    height: 400px;
+    height: 86.5%;
     overflow-y: scroll;
-    border: 1 solid red;
+    border: 4px solid rgb(0, 187, 255);
 }
