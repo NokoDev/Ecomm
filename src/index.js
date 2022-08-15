@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Head from './Components/Head';
 import Footer from './Components/Footer';
+import InputForm from './Components/InputForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Head />
+    <InputForm/>
     <App />
     <Footer/>
   </React.StrictMode>

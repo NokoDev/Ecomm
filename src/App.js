@@ -7,6 +7,7 @@ import TaskList from './Components/TaskList';
 const App = () => {
   return (
     <div className={classes.main}>
+      
       <Titles />
       <TaskList />
     </div>

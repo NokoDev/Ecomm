@@ -1,11 +1,11 @@
-
+import classes from "./InputForm.module.css"
 
 const InputForm = () =>{
 
     return (
-        <div>
-            <input type="text" />
-            <button>ADD</button>
+        <div className={classes.main}>
+            <input type="text" className={classes.input}/>
+            <button className={classes.button}>ADD</button>
         </div>
     )
 }
