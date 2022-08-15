@@ -1,6 +1,7 @@
 .main{
     padding: 0;
-    margin: 0;
+    margin: 2px;
+
     width: 100%;
     height: fit-content;
     display: flex;
@@ -31,4 +32,5 @@ font-weight: bolder;
 
 .main > div:nth-of-type(2){
     text-align: start;
+    
 }
