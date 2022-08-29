@@ -5,9 +5,9 @@ import Task from "./Task"
 
 
 const TaskList = (props) => {
-const tasks = props.items
+    const tasks = props.items
 
-console.log(tasks)
+    console.log(tasks)
 
     return (
         <div className={classes.main}>
