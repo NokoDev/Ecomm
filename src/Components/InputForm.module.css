@@ -3,6 +3,8 @@
     margin-inline: auto;
     width: 450px;
     margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
 }
 
 .button{
